@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.image img {
+  width: 100%;
+  height: 50vh;
+}
+
+.name {
+  font-size: 0.9em;
+  margin-left: 30px;
+  position: absolute;
+  top: 30vh;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-left: 30px;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+header a {
+  text-decoration: none;
+  padding: 3px;
+  color: black;
+}
+header a:hover {
+  border-bottom: 2px solid blue;
+}
+
+.container {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.container p {
+  margin-top: 20px;
+}
+
+.instructor {
+  width: 100vw;
+}
+.row {
+  display: flex;
+}
+.row img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.row p {
+  margin: 5px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30vh;
+  margin-right: 30vh;
+}
+.social-media a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.testinomial {
+  background-color: rgb(167, 177, 190);
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+/* Card.css */
+.card {
+  width: 300px;
+  background-color: rgb(185, 219, 232);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #333;
+}
+.card-item {
+  margin-left: 60%;
+
+  position: absolute;
+  top: 40vh;
+}
+.btn {
+  width: 80%;
+  margin-top: 5px;
+  border-radius: 50px;
+  padding: 4px;
+  background-color: rgb(89, 75, 183);
+  cursor: pointer;
+}
